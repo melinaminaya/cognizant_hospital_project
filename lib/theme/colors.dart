@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 
 // Define your colors here
 class AppColors {
-  static const Color primaryColor = Colors.blue;
+  static const Color primaryColor = Color.fromRGBO(75, 57, 239, 100);
+  static const Color secondaryColor = Color.fromRGBO(57,210,192,100);
   static const Color accentColor = Colors.green;
   static const Color scaffoldBackgroundColor = Colors.white;
   static const Color appBarBackgroundColor = Color(0xFFF1F4F8); // #f1f4f8
   static const Color iconAppBarColor = Color.fromARGB(255, 97, 97, 97); // #
+  static const Color secondaryText = Color.fromARGB(87,99,108,100); //
 }
 
 // Define a custom theme
